@@ -24,14 +24,14 @@
 2. **Newtonsoft.Json 依赖**：需通过 Unity 包管理器安装（安装方式见下文）。  
 
 
-### 步骤 1：安装 Newtonsoft.Json  
+### 步骤 1：安装 Newtonsoft.Json  (项目自带)
 本项目依赖 `Newtonsoft.Json` 解析 JSON，按以下步骤安装：  
 
 1. 打开 Unity 编辑器，进入顶部菜单：`Window > Package Manager`（包管理器）。  
 2. 点击右上角 `+` 按钮，选择 `Add package by name or Git URL...`。  
 3. 输入以下 Git URL 并安装：  
    ```  
-   https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git?path=packages/com.unity.nuget.newtonsoft-json  
+   com.unity.nuget.newtonsoft-json  
    ```  
 
 
